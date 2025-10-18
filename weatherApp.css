@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* background-color: white */
+}
+
+/* body {
+  border: solid 1px red; 
+  margin: 30px auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+
+  width: 100%;
+} */
+
+#Container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(/weatherImages/rainy\ weather.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+/* @keyframes Container {
+    0% {
+      background-image: url(/weatherImages/rainy\ weather.jpeg)
+    };
+    25% {
+      background-image: url(/weatherImages/81806a8e-e71c-40a5-917c-3c54e09660e1.jpeg)
+    };
+    50% {
+      background-image: url(/weatherImages/Premium\ Photo\ _\ Cloudy\ cloudscape\ during\ sunny\ summer\ day\ on\ the\ west\ coast\ of\ pacific\ ocean.jpeg)
+    };
+    75% {
+      background-image: url(/weatherImages/e3e55a61-0606-46f9-bc20-f2f74ef644ca.jpeg)
+    };
+    100% {
+      background-image: url(/weatherImages/Photo\ by\ Mathias\ Reding\ on\ Pexels.jpeg)
+    }
+  } */
+h2 {
+  font-size: 35px;
+}
+#WeatherContainer {
+  margin: 30px auto;
+  width: 50%;
+  border: solid 2px grey;
+  text-align: center;
+  z-index: 9999;
+  background-color: white;
+}
+input {
+  padding: 10px;
+  width: 90%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+button {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  width: fit-content;
+  padding: 5px 8px;
+  margin-top: 20px;
+  border-radius: 10px
+}
+#stateContainer {
+  border: solid 1px lightgray;
+  width: 70%;
+  margin: 30px auto;
+  /* border-radius: 15px; */
+}
+#state {
+  /* border-radius: 15px; */
+  color: black;
+  background-color: lightgray;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+h3 {
+  font-size: 30px;
+}
+.temp {
+  margin: 8px 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
